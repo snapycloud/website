@@ -1,5 +1,5 @@
             
-            <header class="header header-absolute header-transparent header-fixed-on-mobile" data-helper-in-threshold="200" data-helper-out-threshold="500" data-sticky-threshold="200" data-bkg-threshold="100">
+            <header class="header header-relative header-fixed-on-mobile nav-dark header-sticky header-animated no-transition" data-helper-in-threshold="200" data-helper-out-threshold="500" data-sticky-threshold="200" data-bkg-threshold="100">
                 <div class="header-inner">
                     <div class="row nav-bar">
                         <div class="column width-12 nav-bar-inner">
@@ -25,7 +25,7 @@
                             <nav class="navigation nav-block primary-navigation nav-right sub-menu-indicator">
                                 <ul>
                                     <li class="current">
-                                        <a href="#home" class="scroll-link">صفحه اصلی</a>
+                                        <a href="{{ route('home') }}#home" class="scroll-link">صفحه اصلی</a>
                                     </li>
                                     <li>
                                         <a href="#product" class="scroll-link">سرویس‌ها ابری</a>

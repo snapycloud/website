@@ -1,0 +1,13 @@
+@include('layout.partials.head')
+@include('components.aside')
+
+    <div class="wrapper reveal-side-navigation bkg-charcoal">
+        <div class="wrapper-inner">
+
+            @include('components.header_page')            
+            <div class="content clearfix">
+                @yield('main')
+            </div>
+        </div>
+    </div>
+@include('layout.partials.footer')

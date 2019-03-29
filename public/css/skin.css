@@ -799,6 +799,10 @@ body,
 .bkg-gradient-purple-haze{
 	background-image: linear-gradient(125deg, #6586f6 0%, #8b6ced 100%) !important;
 }
+
+.bkg-gradient-blue-dark{
+	background-image: linear-gradient(125deg, #1635e1 0%, #293bf4 100%) !important;
+}
 .bkg-gradient-night-shade{
 	background-image: radial-gradient(circle farthest-side at right bottom,#f8cdda 5%,#f8cdda 25%,#1d2b64 80%,#0e153a 98%) !important;
 }
