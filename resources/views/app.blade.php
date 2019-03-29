@@ -15,11 +15,11 @@
                                         <h2 class="color-white h1-bold center mb-20">شروع آسان  برای استارت آپ‌ها</h2>
                                         <p class="lead color-white center mb-40">اسنپی یک پلتفرم ابری آماده است با امکانات کامل.  با زدن یک دکمه سرویس دلخواه خود را ایجاد کنید </p>
                                         <div class="mb-mobile-30 center">
-                                            <a href="#" class="button rounded medium border-white color-white bkg-hover-green color-hover-white">
+                                            <a href="#" class="button rounded large border-white color-white bkg-hover-green color-hover-white">
                                                 تمام سرویس‌ها
                                             </a>
-                                            <a href="#" class="button rounded medium border-white color-white bkg-hover-green color-hover-white">
-                                                ارتباط با مشتری
+                                            <a href="#plans" class="button rounded large border-white color-white bkg-hover-gray color-hover-white rtl">
+                                                <span class="label rounded bkg-green color-white">CRM</span> رایگان 
                                             </a>
                                         </div>
                                     </div>
@@ -276,7 +276,7 @@
                                             </ul>
                                         </div>
                                         <div class="pricing-table-footer bkg-white">
-                                            <a href="#" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
+                                            <a href="{{ route('plan', 'jfdjk') }}" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
                                         </div>
                                     </div>
                                 </div>
@@ -310,7 +310,7 @@
                                             </ul>
                                         </div>
                                         <div class="pricing-table-footer bkg-white">
-                                            <a href="#" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
+                                            <a href="{{ route('plan', 'jfdjk') }}" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
                                         </div>
                                     </div>
                                 </div>
@@ -343,7 +343,7 @@
                                             </ul>
                                         </div>
                                         <div class="pricing-table-footer bkg-white">
-                                            <a href="#" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
+                                            <a href="{{ route('plan', 'jfdjk') }}" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
                                         </div>
                                     </div>
                                 </div>
@@ -389,7 +389,7 @@
                                             </ul>
                                         </div>
                                         <div class="pricing-table-footer bkg-white">
-                                            <a href="#" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
+                                            <a href="{{ route('plan', 'jfdjk') }}" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
                                         </div>
                                     </div>
                                 </div>
@@ -427,7 +427,7 @@
                                             </ul>
                                         </div>
                                         <div class="pricing-table-footer bkg-white">
-                                            <a href="#" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
+                                            <a href="{{ route('plan', 'jfdjk') }}" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
                                         </div>
                                     </div>
                                 </div>
@@ -464,7 +464,7 @@
                                             </ul>
                                         </div>
                                         <div class="pricing-table-footer bkg-white">
-                                            <a href="#" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
+                                            <a href="{{ route('plan', 'jfdjk') }}" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
                                         </div>
                                     </div>
                                 </div>
@@ -483,7 +483,7 @@
                         </div>
                         <div class="column width-12 right left-on-mobile v-align-bottom">
                             <div>
-                                <a class="button rounded small bkg-pink bkg-hover-white color-white color-hover-pink mb-60">View All Articles</a>
+                                <a href="{{ route('documentation') }}" class="button rounded small bkg-pink bkg-hover-white color-white color-hover-pink mb-60">View All Articles</a>
                             </div>
                         </div>
                     </div>

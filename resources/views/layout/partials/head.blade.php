@@ -23,8 +23,8 @@
     {{-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CHind+Madurai:400,500&amp;subset=latin-ext" rel="stylesheet"> --}}
     
     <!-- Css -->
-    <link rel="stylesheet" href="css/core.min.css" />
-    <link rel="stylesheet" href="css/skin.css" />
+    <link rel="stylesheet" href="{{ asset('css/core.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/skin.css')}}" />
 
     <!--[if lt IE 9]>
         <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
