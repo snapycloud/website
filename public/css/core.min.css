@@ -11,6 +11,10 @@ html {
     max-width: 100%
 }
 
+.rtl {
+    direction: rtl !important;
+}
+
 .column>:first-child,
 .row {
     margin-top: 0
@@ -513,11 +517,11 @@ body.boxed .wrapper-inner {
 }
 
 .left {
-    text-align: left
+    text-align: left !important;
 }
 
 .right {
-    text-align: right
+    text-align: right !important;
 }
 
 .center,
@@ -7823,8 +7827,8 @@ pre code {
 
 .bkg-black,
 .bkg-hover-black:hover {
-    background-color: #000;
-    border-color: #000
+    background-color: #0d21f3;
+    border-color: #0d21f3
 }
 
 .bkg-base {
@@ -9787,7 +9791,7 @@ body.boxed .wrapper-inner {
 .text-column,
 .thumbnail,
 .video-container {
-    margin-bottom: 3rem !important
+    margin-bottom: 3rem 
 }
 
 .section-block.featured-media,

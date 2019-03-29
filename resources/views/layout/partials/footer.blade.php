@@ -5,27 +5,13 @@
 						<div class="column width-12 center">
 							<div class="widget">
 								<h3 class="mb-30">Snapy Cloud</h3>
-								<ul class="social-list list-horizontal center">
+								<p class="lead mb-30">بهترین زیر ساخت ابری برای استارت آپ ها و شرکت های بزرگ</p>
+{{-- 								<ul class="social-list list-horizontal center">
 									<li><a href="#"><span class="icon-twitter small"></span></a></li>
 									<li><a href="#"><span class="icon-facebook small"></span></a></li>
 									<li><a href="#"><span class="icon-vimeo small"></span></a></li>
-								</ul>
-								<nav class="navigation nav-block nav-center mb-10">
-									<ul>
-										<li>
-											<a href="index.html">Home</a>
-										</li>
-										<li>
-											<a href="about-style-one.html">About Us</a>
-										</li>
-										<li>
-											<a href="services-style-one.html">Services</a>
-										</li>
-										<li>
-											<a href="contact-style-one.html">Get in Touch</a>
-										</li>
-									</ul>
-								</nav>
+								</ul> --}}
+								<hr>
 							</div>
 						</div>
 					</div>

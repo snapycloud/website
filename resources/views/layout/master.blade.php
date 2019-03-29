@@ -5,7 +5,7 @@
         <div class="wrapper-inner">
 
             @include('components.header')            
-            <div class="content clearfix reveal-footer">
+            <div class="content clearfix">
                 @yield('main')
             </div>
         </div>

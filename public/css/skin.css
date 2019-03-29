@@ -4792,7 +4792,7 @@ blockquote.avatar.xlarge span img  {
 
 /* style 1 */
 .pricing-table.style-1 .pricing-table-column *{
-	text-align: left;
+	text-align: right;
 }
 .pricing-table.style-1 .pricing-table-header h2{
 	font-size: 1.862rem;
