@@ -7,6 +7,7 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
+use App\User;
 
 class Controller extends BaseController
 {
@@ -22,12 +23,14 @@ class Controller extends BaseController
     public function postPlaneRegister(Request $request)
     {
     	$request->validate([
-    		'register.firstname' => 'required|max:120',
-    		'register.lastname' => 'required|max:120',
-    		'register.email' => 'required|email',
-    		'register.phone' => 'required|regex:/(09)[0-9]{8}/',
-    		'register.password' => 'required|min:8|regex:/^(?=.*[a-zA-Z])(?=.*\d).+$/',
+    		'firstname' => 'required|max:120',
+    		'lastname' => 'required|max:120',
+    		'email' => 'required|email',
+    		'phone' => 'required|regex:/(09)[0-9]{8}/',
+    		'password' => 'required|min:8|regex:/^(?=.*[a-zA-Z])(?=.*\d).+$/',
     	]);
+
+    	User::create($request->all());
     	dd($request->all());
 
     }

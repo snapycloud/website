@@ -46,8 +46,8 @@
                                                 <div class="column width-6">
                                                     <div class="field-wrapper">
                                                         <label class="color-charcoal">نام خانوادگی :</label>
-                                                        <input placeholder="" value="{{ old('register.lastname') }}" required type="text" name="register[lastname]" class="form-lastname form-element rounded medium
-                                                        @if($errors->has('register.lastname') )
+                                                        <input placeholder="" value="{{ old('lastname') }}" required type="text" name="lastname" class="form-lastname form-element rounded medium
+                                                        @if($errors->has('lastname') )
                                                             {{'required-field'}}
                                                         @endif" >
                                                     </div>
@@ -55,7 +55,7 @@
                                                 <div class="column width-6">
                                                     <div class="field-wrapper">
                                                         <label class="color-charcoal">نام :</label>
-                                                        <input type="text" value="{{ old('register.firstname') }}" name="register[firstname]" class="form-firstname form-element rounded medium @if($errors->has('register.firstname') )
+                                                        <input type="text" value="{{ old('firstname') }}" name="firstname" class="form-firstname form-element rounded medium @if($errors->has('firstname') )
                                                             {{'required-field'}}
                                                         @endif" placeholder="" required>
                                                     </div>
@@ -65,7 +65,7 @@
                                                 <div class="column width-12">
                                                     <div class="field-wrapper">
                                                         <label class="color-charcoal">ایمیل:</label>
-                                                        <input type="email" value="{{ old('register.email') }}" name="register[email]" class="form-email form-element rounded medium @if($errors->has('register.email') )
+                                                        <input type="email" value="{{ old('email') }}" name="email" class="form-email form-element rounded medium @if($errors->has('email') )
                                                             {{'required-field'}}
                                                         @endif" placeholder="" required>
                                                     </div>
@@ -73,15 +73,23 @@
                                                 <div class="column width-12">
                                                     <div class="field-wrapper">
                                                         <label class="color-charcoal">شماره همراه:</label>
-                                                        <input type="phone" value="{{ old('register.phone') }}" name="register[phone]" class="form-phone form-element rounded medium @if($errors->has('register.phone') )
+                                                        <input type="phone" value="{{ old('phone') }}" name="phone" class="form-phone form-element rounded medium @if($errors->has('phone') )
                                                             {{'required-field'}}
                                                         @endif" placeholder="" required>
                                                     </div>
                                                 </div>
                                                 <div class="column width-12">
                                                     <div class="field-wrapper">
+                                                        <label class="color-charcoal">نام شرکت:</label>
+                                                        <input type="company" value="{{ old('company') }}" name="company" class="form-company form-element rounded medium @if($errors->has('company') )
+                                                            {{'required-field'}}
+                                                        @endif" placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div class="column width-12">
+                                                    <div class="field-wrapper">
                                                         <label class="color-charcoal">پسورد:</label>
-                                                        <input type="password" name="register[password]" class="form-password form-element rounded medium @if($errors->has('register.password') )
+                                                        <input type="text" name="password" class="form-password form-element rounded medium @if($errors->has('password') )
                                                             {{'required-field'}}
                                                         @endif" placeholder="(۸ کاراکتر یا بیشتر باشد)" required>
                                                     </div>
@@ -91,7 +99,7 @@
                                                 </div>
                                             </div>
                                         </form>
-                                        <p class="text-small mt-20">با ایجاد حساب کاربری شما با شرایط ما موافقید - <a href="{{ route('terms') }}">مطالعه کنید</a></p>
+                                        <p class="text-small mt-20">با ایجاد حساب کاربری شما با شرایط ما موافقید - <a href="{{ route('terms') }}" target="_blank">مطالعه کنید</a></p>
                                         
                                     </div>
                                 </div>
