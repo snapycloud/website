@@ -11,5 +11,6 @@ Route::get('/documentation', function(){
 Route::get('/plans/{id}', 'Controller@getPlaneRegister')->name('plan');
 Route::post('/plans/register', 'Controller@postPlaneRegister')->name('register');
 
+
 Route::get('/login', 'Controller@getPlaneRegister')->name('login');
 Route::get('/terms', 'Controller@getPlaneRegister')->name('terms');

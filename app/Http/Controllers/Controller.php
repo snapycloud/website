@@ -7,11 +7,28 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
+use SnapyCloud\PhpApi\Client\SnapyClient;
 use App\User;
+
 
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+    protected $client;
+
+    public function __construct()
+    {
+        $url = 'https://server.app.snapycloud.com';
+        $this->client = new SnapyClient($url);
+        $this->client->setApiKey('2434bacac4b4abf96d0d7fb0ec19fc5c');
+        $this->client->setSecretKey('769fce1f0b7264f9c9371f1cb9598662');
+    }
+    public function client()
+    {
+        return $this->client;
+    }
+
 
     public function getPlaneRegister($id)
     {
@@ -30,8 +47,10 @@ class Controller extends BaseController
     		'password' => 'required|min:8|regex:/^(?=.*[a-zA-Z])(?=.*\d).+$/',
     	]);
 
-    	User::create($request->all());
-    	dd($request->all());
+    	$list = $this->client()->entity('contact')->get();
+    
+    	dd($list);
+    	// return view('login');
 
     }
 }
