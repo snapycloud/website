@@ -33,8 +33,6 @@ class Controller extends BaseController
     public function getPlaneRegister($id)
     {
     	return view('register');
-
-    	// get register form save sesstion data;2
     }
 
     public function postPlaneRegister(Request $request)
@@ -47,10 +45,35 @@ class Controller extends BaseController
     		'password' => 'required|min:8|regex:/^(?=.*[a-zA-Z])(?=.*\d).+$/',
     	]);
 
-    	$list = $this->client()->entity('contact')->get();
-    
-    	dd($list);
-    	// return view('login');
+        $postDataAccount = [
+            'name' => $request->get('company'),
+            'type' => 'Customer',
+            'description' => 'New Register From Form Website',
+            'emailAddress' => $request->get('email'),
+            'emailAddressIsOptedOut' => false,
+            'phoneNumber' => $request->get('phone'),
+        ];
 
+        $postDataContact = [
+            'lastName' => $request->get('lastname'),
+            'firstName' => $request->get('firstname'),
+            'description' => 'New Register From Form Website',
+            'emailAddress' => $request->get('email'),
+            'emailAddressIsOptedOut' => false,
+            'phoneNumber' => $request->get('phone'),
+        ];
+
+        $account = $this->client()->entity('account')->create($postDataAccount);
+
+        if ($account) {
+            $postDataContact['accountId'] = $account['id'];
+            $postDataContact['accountName'] = $account['name'];
+            $postDataContact['accountType'] = $account['type'];
+        }
+
+
+    	$contact = $this->client()->entity('contact')->create($postDataContact);
+    
+        return view('confirmation');
     }
 }

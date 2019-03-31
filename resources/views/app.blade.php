@@ -276,7 +276,7 @@
                                             </ul>
                                         </div>
                                         <div class="pricing-table-footer bkg-white">
-                                            <a href="{{ route('plan', 'jfdjk') }}" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
+                                            <a href="{{ route('plan', '5c96a2537006abc5f') }}" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
                                         </div>
                                     </div>
                                 </div>
@@ -310,7 +310,7 @@
                                             </ul>
                                         </div>
                                         <div class="pricing-table-footer bkg-white">
-                                            <a href="{{ route('plan', 'jfdjk') }}" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
+                                            <a href="{{ route('plan', '5c96a2b628614ceb0') }}" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
                                         </div>
                                     </div>
                                 </div>
@@ -343,7 +343,7 @@
                                             </ul>
                                         </div>
                                         <div class="pricing-table-footer bkg-white">
-                                            <a href="{{ route('plan', 'jfdjk') }}" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
+                                            <a href="{{ route('plan', '5c96a2f43d1ab720f') }}" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
                                         </div>
                                     </div>
                                 </div>
@@ -389,7 +389,7 @@
                                             </ul>
                                         </div>
                                         <div class="pricing-table-footer bkg-white">
-                                            <a href="{{ route('plan', 'jfdjk') }}" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
+                                            <a href="{{ route('plan', '5ca009e88ae52c935') }}" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
                                         </div>
                                     </div>
                                 </div>
@@ -427,7 +427,7 @@
                                             </ul>
                                         </div>
                                         <div class="pricing-table-footer bkg-white">
-                                            <a href="{{ route('plan', 'jfdjk') }}" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
+                                            <a href="{{ route('plan', '5ca009fb63ecb2746') }}" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
                                         </div>
                                     </div>
                                 </div>
@@ -464,7 +464,7 @@
                                             </ul>
                                         </div>
                                         <div class="pricing-table-footer bkg-white">
-                                            <a href="{{ route('plan', 'jfdjk') }}" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
+                                            <a href="{{ route('plan', '5ca00a17487c7199a') }}" class="button rounded bkg-blue bkg-hover-blue color-white color-hover-white mb-mobile-40">انتخاب طرح</a>
                                         </div>
                                     </div>
                                 </div>

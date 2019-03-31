@@ -1748,12 +1748,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/snapycloud/php-api.git",
-                "reference": "92e39ff2cca090b5ff14a6f0268b18d06c148b27"
+                "reference": "d0e25ca1fa7982ae1a36ed1b55ee459cfcce13a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/snapycloud/php-api/zipball/92e39ff2cca090b5ff14a6f0268b18d06c148b27",
-                "reference": "92e39ff2cca090b5ff14a6f0268b18d06c148b27",
+                "url": "https://api.github.com/repos/snapycloud/php-api/zipball/d0e25ca1fa7982ae1a36ed1b55ee459cfcce13a7",
+                "reference": "d0e25ca1fa7982ae1a36ed1b55ee459cfcce13a7",
                 "shasum": ""
             },
             "type": "library",
@@ -1777,7 +1777,7 @@
             ],
             "description": "php sdk for use snapyapi and snapycrm",
             "homepage": "https://github.com/snapycloud/php-api",
-            "time": "2019-03-30T23:08:30+00:00"
+            "time": "2019-03-30T23:36:15+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
