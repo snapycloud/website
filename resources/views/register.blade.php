@@ -36,6 +36,7 @@
                                         @endif
                                         <form class="register-form" action="{{ route('register') }}" method="post" novalidate >
                                             {{ csrf_field() }}
+                                            <input type="hidden" value="{{ $id }}" name="id">
                                             <div class="row">
                                             <div class="column width-12">
                                                 <h4 class="mb-30">نام سرویس انتخابی: </h4>

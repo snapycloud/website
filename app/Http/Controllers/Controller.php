@@ -32,19 +32,21 @@ class Controller extends BaseController
 
     public function getPlaneRegister($id)
     {
-    	return view('register');
+    	return view('register', [
+            'id' => $id
+        ]);
     }
 
     public function postPlaneRegister(Request $request)
     {
-    	$request->validate([
-    		'firstname' => 'required|max:120',
-    		'lastname' => 'required|max:120',
-    		'email' => 'required|email',
-    		'phone' => 'required|regex:/(09)[0-9]{8}/',
-    		'password' => 'required|min:8|regex:/^(?=.*[a-zA-Z])(?=.*\d).+$/',
-    	]);
-
+    	// $request->validate([
+    	// 	'firstname' => 'required|max:120',
+    	// 	'lastname' => 'required|max:120',
+    	// 	'email' => 'required|email',
+    	// 	'phone' => 'required|regex:/(09)[0-9]{8}/',
+    	// 	'password' => 'required|min:8|regex:/^(?=.*[a-zA-Z])(?=.*\d).+$/',
+    	// ]);
+        // need user create
         $postDataAccount = [
             'name' => $request->get('company'),
             'type' => 'Customer',
@@ -63,8 +65,8 @@ class Controller extends BaseController
             'phoneNumber' => $request->get('phone'),
         ];
 
-        $account = $this->client()->entity('account')->create($postDataAccount);
-
+        // $account = $this->client()->entity('account')->create($postDataAccount);
+        $account = false;
         if ($account) {
             $postDataContact['accountId'] = $account['id'];
             $postDataContact['accountName'] = $account['name'];
@@ -72,8 +74,39 @@ class Controller extends BaseController
         }
 
 
-    	$contact = $this->client()->entity('contact')->create($postDataContact);
-    
+    	// $contact = $this->client()->entity('contact')->create($postDataContact);
+
+        // need change id
+        $product = $this->client()->request('GET', 'product', [
+            'where[0][type]' => 'in',
+            'where[0][attribute]' => 'id',
+            'where[0][value][]' => $request->get('id')
+        ]);
+
+        return view('checkout', [
+            'product' => $product['list'][0]
+        ]);
+    }
+
+    public function postPayment($id, Request $request)
+    {
+        // get payment links
+        dd($id, $request->all());
+    }
+
+    public function getPayment(Request $request)
+    {
+        $data['transid'] = $request->get('transId');
+        $data['status'] = "Approved";
+        // need update invoice
+        $product = $this->client()->request('PUT', 'Quote/' . $request->get('factorNumber'), $data);
+
+        dd($product, $data);
         return view('confirmation');
+    }
+
+    public function getLogin()
+    {
+        return view('login');
     }
 }
