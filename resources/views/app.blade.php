@@ -34,25 +34,26 @@
                 <!-- About Section -->
                 <div class="section-block bkg-white" id="product">
                     <div class="row flex two-columns-on-tablet">
-                        <div class="column width-7 v-align-middle left">
+                        <div class="column width-7 v-align-middle right rtl">
                             <div>
-                                <h3>ساخت یک سیستم که فقط کار می کند</h3>
-                                <p class="lead mb-50">کسب و کار خود را افزایش دهید، جهانی شوید و با تبدیل کردن تجربه پرداخت خود، تبدیل به کشورهای دیگر را افزایش دهید.</p>
+                                <h3>سرویس اشتراکی ابری و اختصاسی</h3>
+                                <p class="lead mb-50">کسب و کار خود را با کمترین هزینه را ها ندازی کنید.
+                                نرم افزار مدیریت ارتباط با مشتری را رایگان استفاده کنید و از سرویس های پانل api برای نرم افزاری های موبایلی به راحتی راه اندازی کنید</p>
                                 <div class="feature-column medium left">
                                     <span class="feature-icon icon-flow-tree color-theme mb-30"></span>
-                                    <div class="feature-text">
-                                        <h4 class="color-theme">Split Payments</h4>
-                                        <p>در صورتیکه مایل به دریافت پاسخ هستید، پست الکترونیک خود را ضمیمه کنید و هنوز هیچ مسئولیتی را از طرف کاربران پرسیده نشده است</p>
-                                        <a href="#">Read More →</a>
+                                    <div class="feature-text right">
+                                        <h4 class="color-theme">سرویس ها متنوع</h4>
+                                        <p>با توجه به نیاز و هزینه، سرویس مورد نظر خود را انتخاب کنید، کمترین هزینه بهترین کیفیت و سرویس رسانی.</p>
+                                        {{-- <a href="#">Read More →</a> --}}
                                     </div>
                                 </div>
                                 <hr>
                                 <div class="feature-column medium left">
                                     <span class="feature-icon icon-flow-parallel color-theme mb-30"></span>
-                                    <div class="feature-text">
-                                        <h4 class="color-theme">Parallel Payments</h4>
-                                        <p>در صورتیکه مایل به دریافت پاسخ هستید، پست الکترونیک خود را ضمیمه کنید و هنوز هیچ مسئولیتی را از طرف کاربران پرسیده نشده است</p>
-                                        <a href="#">Read More →</a>
+                                    <div class="feature-text right">
+                                        <h4 class="color-theme">سفارشی سازی</h4>
+                                        <p>در صورتیکه مایل به درخواست نیازمندی جدید هستید کافیست به ما اطلاع دهید تا بعد بررسی و امکان سنجی برایتان توسعه دهیم.</p>
+                                        {{-- <a href="#">Read More →</a> --}}
                                     </div>
                                 </div>
                             </div>
@@ -66,10 +67,14 @@
                                         </div>
                                     </div>
                                     <h4>سرعت و قابلیت بالا</h4>
-                                    <p class="lead">کشف، درک و انتخاب روش های پرداخت مناسب برای رسیدن به مخاطبان گسترده تر.</p>
-                                    <div class="box xlarge ignore-parent-padding last bkg-grey-light">
-                                        <h4>پایگاه دانش</h4>
-                                        <p class="opacity-07">ما در حال تلاش برای اضافه کردن انواع بسیاری از انواع پرداخت است. درخواستهایی را که لازم دارید درخواست کنید و زمانی که آماده میشویم، به آن دسترسی پیدا خواهیم کرد.</p>
+                                    <p class="lead">کشف، درک و انتخاب روش های  مناسب برای رسیدن به مخاطبان  گسترده تر و ارائه سرویس های پرسرعت با توجه به نیاز شرکت‌ها</p>
+                                    <div class="box xlarge ignore-parent-padding last bkg-grey-light rtl">
+                                        <h4>توسعه و پایداری</h4>
+                                        <p class="opacity-07">ما در تلاش برای اضافه کردن اطلاعات  کاربردی از سرویس های خود هستیم. ما همیشه در حال توسعه و بروزرسانی سرویس های خود هستیم، درخواست هایی که لازم داریدبرای ما ارسال کنید
+
+
+
+</p>
                                         <a href="#documentation" class="button rounded small bkg-theme bkg-hover-theme color-white color-hover-white">کلیک کنید</a>
                                     </div>
                                 </div>
@@ -82,7 +87,7 @@
                     <div class="row flex two-columns-on-tablet">
                         <div class="column width-3 center v-align-middle horizon" data-animate-in="preset:slideInRightShort;duration:1000ms;delay:300;" data-threshold="1">
                             <div>
-                                <a href="#home" class="scroll-link button rounded medium full-width  bkg-green color-white bkg-hover-green color-hover-white no-marginsk">کلیک کنید</a>
+                                <a href="#plans" class="scroll-link button rounded medium full-width  bkg-green color-white bkg-hover-green color-hover-white no-marginsk">کلیک کنید</a>
                             </div>
                         </div>
                         <div class="column width-5 offset-1 v-align-middle horizon right" data-animate-in="preset:slideInLeftShort;duration:1000ms;delay:0;" data-threshold="1">
@@ -106,7 +111,7 @@
                                 <span class="icon-circled icon-line-graph pulsate large border-theme color-theme mb-40"></span>
                                 <h3 class="weight-semi-bold ">تست فشار</h3>
                                 <p class="opacity-07">در صورتیکه مایل به دریافت پاسخ هستید، پست الکترونیک خود را ضمیمه کنید و هنوز هیچ مسئولیتی را از طرف کاربران پرسیده نشده است</p>
-                                <a href="#">Read More →</a>
+                                {{-- <a href="#">Read More →</a> --}}
                             </div>
                         </div>
                         <div class="column width-6 mb-mobile-40 v-align-middle center">
@@ -114,7 +119,7 @@
                                 <span class="icon-circled icon-network pulsate large border-theme color-theme mb-40"></span>
                                 <h3 class="weight-semi-bold ">بدون باتلنک درخواست</h3>
                                 <p class="opacity-07">در صورتیکه مایل به دریافت پاسخ هستید، پست الکترونیک خود را ضمیمه کنید و هنوز هیچ مسئولیتی را از طرف کاربران پرسیده نشده است</p>
-                                <a href="#">Read More →</a>
+                                {{-- <a href="#">Read More →</a> --}}
                             </div>
                         </div>
                     </div>
@@ -132,46 +137,14 @@
                             <div class="box rounded large bkg-white border-grey-light shadow-hover">
                                 <div class="feature-column large center">
                                     <span class="feature-icon icon-credit mt-20 mb-30 color-theme"></span>
-                                    <div class="feature-text">
-                                        <h4>هزینه مناسب</h4>
-                                        <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur.</p>
-                                        <a href="#">Read More →</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column width-4 mb-10">
-                            <div class="box rounded large bkg-white border-grey-light shadow-hover">
-                                <div class="feature-column large center">
-                                    <span class="feature-icon icon-cloud mt-20 mb-30 color-theme"></span>
-                                    <div class="feature-text">
-                                        <h4>درگاه ابری امن</h4>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
-                                        <a href="#">Read More →</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column width-4 mb-10">
-                            <div class="box rounded large bkg-white border-grey-light shadow-hover">
-                                <div class="feature-column large center">
-                                    <span class="feature-icon icon-flow-tree mt-20 mb-30 color-theme"></span>
-                                    <div class="feature-text">
-                                        <h4>پلن‌های قابل ارتقاع</h4>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
-                                        <a href="#">Read More →</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column width-4 mb-10">
-                            <div class="box rounded large bkg-white border-grey-light shadow-hover">
-                                <div class="feature-column large center">
-                                    <span class="feature-icon icon-stopwatch mt-20 mb-30 color-theme"></span>
-                                    <div class="feature-text">
-                                        <h4>راه اندازی سریع</h4>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-                                        <a href="#">Read More →</a>
+                                    <div class="feature-text rtl">
+                                        <h4>اتوماسیون فروش</h4>
+                                        <p>ماژول سرنخ. تبدیل سرنخ به فرصت / حساب/ سازمان / اشخاص.
+ماژول فرصت ها. فروش بالقوه در CRM.
+ماژول حساب و سازمان. هر حساب یا سازمان یک رکورد مرکزی در مدل B2B است.
+ماژول مخاطب یا اشخاص. ثبت اطلاعات اشخاص و ارتباط آن‌ها با سازمان و حساب.
+</p>
+                                        {{-- <a href="#">Read More →</a> --}}
                                     </div>
                                 </div>
                             </div>
@@ -182,8 +155,9 @@
                                     <span class="feature-icon icon-flow-parallel mt-20 mb-30 color-theme"></span>
                                     <div class="feature-text">
                                         <h4>سرویس های چند منظوره</h4>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-                                        <a href="#">Read More →</a>
+                                        <p>از سرویس های ما برای پنل سمت سرور اپلیکیشن های موبایلی, نرم افزار مدیریت ارتباط با مشتری استفاده کنید. هر سناریویی که طراحی کردید بوجود بیاورید و پیاده سازی کنید. بدون یک خط کد نویس و دانش برنامه نویسی
+
+</p>
                                     </div>
                                 </div>
                             </div>
@@ -192,10 +166,13 @@
                             <div class="box rounded large bkg-white border-grey-light shadow-hover">
                                 <div class="feature-column large center">
                                     <span class="feature-icon icon-tools mt-20 mb-30 color-theme"></span>
-                                    <div class="feature-text">
+                                    <div class="feature-text rtl">
                                         <h4>سفارشی سازی</h4>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-                                        <a href="#">Read More →</a>
+                                        <p>مدیریت طراحی، تغییر و طرح بندی برای جزئیات و نمایش لیست.
+مدیریت اجرایی ایجاد ماژول‌های سفارشی، زمینه ها و روابط.
+مدیریت برچسب ها و توانایی سفارشی کردن برچسب های برنامه.
+</p>
+                                        {{-- <a href="#">Read More →</a> --}}
                                     </div>
                                 </div>
                             </div>
@@ -209,30 +186,25 @@
                     <div class="row">
                         <div class="column width-10 offset-1 center">
                             <h4 class="mb-50 rtl">از سرویس های اسنپی استفاده می کنند ...</h4>
-                            <div class="row content-grid-5 opacity-06">
+                            <div class="row content-grid-4 opacity-06">
                                 <div class="grid-item">
                                     <a href="#">
-                                        <img src="images/logos/froogle-logo-grid-grey.svg" alt="">
+                                        <img src="images/logos/telemusic.png" alt="">
                                     </a>
                                 </div>
                                 <div class="grid-item">
                                     <a href="#">
-                                        <img src="images/logos/squidbit-logo-grid-grey.svg" alt="">
+                                        <img src="images/logos/appdat.png" alt="">
                                     </a>
                                 </div>
                                 <div class="grid-item">
                                     <a href="#">
-                                        <img src="images/logos/achillian-logo-grid-grey.svg" alt="">
+                                        <img src="images/logos/avva.png" alt="">
                                     </a>
                                 </div>
                                 <div class="grid-item">
                                     <a href="#">
-                                        <img src="images/logos/dropfile-logo-grid-grey.svg" alt="">
-                                    </a>
-                                </div>
-                                <div class="grid-item">
-                                    <a href="#">
-                                        <img src="images/logos/berry-logo-grid-grey.svg" alt="">
+                                        <img src="images/logos/vada.png" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -533,8 +505,10 @@
                                         </div>
                                         <div class="team-content-info">
                                             <h4 class="mb-10">ابراهیم قائمی</h4>
-                                            <h6 class="occupation">مدیر فنی</h6>
-                                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                            <h6 class="occupation">مدیر مجموعه و تیم فنی</h6>
+                                            <p>در دنیای امروز، بیش از پیش صنعت رایانه زندگی روزمره مان را دگرگون ساخته باعث تغییرات کلی در نوع وظایف و خدمات شده است. ما سعی بر این داریم با نگاه نوبرانه ای در این عرصه قدم برداشته و لبخند رضایت بر لبانتان جاری کنیم.
+
+</p>
                                             {{-- <p><a href="#">View Jason's Profile →</a></p> --}}
                                         </div>
                                     </div>
@@ -547,8 +521,7 @@
                                         <div class="team-content-info">
                                             <h4 class="mb-10">اصغر رضایی</h4>
                                             <h6 class="occupation">توسعه دهنده</h6>
-                                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                                            <p><a href="#">View Emma's Profile →</a>
+                                            <p>بیش از ۳ ساله کار برنامه نویسی می کنم، خیلی خوشحالم با تیم اسنپی کلود کار میکنم. تجربیات جدید و چالش های جذاب رو پیش رو داشتیم. خوشحالم یکی از محرهای تیم فنی هستم.</p>
                                         </p></div>
                                     </div>
                                 </div>
@@ -556,9 +529,9 @@
                                 <div class="grid-item v-align-middle center tmh-perspective">
                                     <div class="box rounded medium mb-0 bkg-grey-ultralight horizon" data-animate-in="preset:slideInUpShort;duration:300ms;delay:200ms;" data-threshold="0.3" style="backface-visibility: hidden; transition: -webkit-transform 300ms cubic-bezier(0.11, 0.69, 0.66, 1.01) 200ms, opacity; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1); opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;">
                                         <div>
-                                            <h3 class="mb-10">Join the Team</h3>
-                                            <p class="lead">We're currently looking for junior UI/UX designer. Interested? Shoot us your CV.</p>
-                                            <p><a href="#">Submit Your CV →</a>
+                                            <h3 class="mb-10">عضو تیم اسنپی کلود شوید.</h3>
+                                            <p class="lead">ما در حال حاضر به دنبال توسعه دهنده و همکار هستیم.</p>
+                                            <p>رزمه خود را به ایمیل snapycloud@gmail.com ارسال کنید
                                         </p></div>
                                     </div>
                                 </div>
