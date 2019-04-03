@@ -1,9 +1,6 @@
 @extends('layout.master')
 
 @section('main')
-
-                <!-- Intro Section -->
-
                 <div id="home" class="section-block hero-2-4 window-height clear-height-on-tablet">
                     <div class="media-overlay bkg-black opacity-08"></div>
                     <div class="row flex v-align-middle">
