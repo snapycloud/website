@@ -6,8 +6,11 @@
                     <div class="row flex v-align-middle">
                         <div class="column width-12">
                             <div class="row flex one-column-on-tablet">
-                                <div class="column width-12 v-align-middle">
+                                <div class="column width-12 v-align-middle center">
                                     <div>
+                                        <div class="thumbnail">
+                                    <img src="images/anapycloud2x.png" width="500" alt="" style="transition-duration: 400ms; transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);">
+                                </div>
                                         <h1 class="color-white h1-bold center mb-20">به مشتریان خود نزدیکتر شودید</h1>
                                         <h2 class="color-white h1-bold center mb-20">شروع آسان  برای استارت آپ‌ها</h2>
                                         <p class="lead color-white center mb-40">اسنپی یک پلتفرم ابری آماده است با امکانات کامل.  با زدن یک دکمه سرویس دلخواه خود را ایجاد کنید </p>
@@ -240,7 +243,7 @@
                                                 <li><strong>۱۰۰ مکابایت</strong> فضای ذخیره یابی</li>
                                                 <li><strong>۲ کاربر</strong> هم زمان</li>
                                                 <li><strong>لایه امنیتی وب</strong> فعال است</li>
-                                                <li><strong>سیتم پشتیبانی </strong> از طریق تیکیت</li>
+                                                <li><strong>سیستم پشتیبانی </strong> تیکیت</li>
                                                 <li><strong>انتخاب دامین </strong> دلخواه ندارد</li>
                                             </ul>
                                         </div>
@@ -274,7 +277,7 @@
                                               <li><strong>۵۰۰ مکابایت</strong> فضای ذخیره یابی</li>
                                                 <li><strong>۱۰ کاربر</strong> هم زمان</li>
                                                 <li><strong>لایه امنیتی وب</strong> فعال است</li>
-                                                <li><strong>سیتم پشتیبانی </strong> از طریق تیکیت و تماس</li>
+                                                <li><strong>سیستم پشتیبانی </strong> تیکیت و تماس</li>
                                                 <li><strong>انتخاب دامین </strong> دلخواه دارد</li>
                                             </ul>
                                         </div>
@@ -307,7 +310,7 @@
                                                 <li><strong>۱ گیگابایت</strong> فضای ذخیره یابی</li>
                                                 <li><strong>۲۰ کاربر</strong> هم زمان</li>
                                                 <li><strong>لایه امنیتی وب</strong> فعال است</li>
-                                                <li><strong>سیتم پشتیبانی </strong> از طریق تیکیت و تماس</li>
+                                                <li><strong>سیستم پشتیبانی </strong> تیکیت و تماس</li>
                                                 <li><strong>انتخاب دامین </strong> دلخواه دارد</li>
                                             </ul>
                                         </div>
@@ -348,13 +351,13 @@
                                             <ul class="list-unstyled mb-0 rtl">
                                                 <li><strong>۱۰۰ مکابایت</strong> فضای ذخیره یابی</li>
                                                 <li><strong>۲ عدد ورکر</strong> برای اجرای درخواست ها</li>
-                                                <li><strong>۳۰ درخواست همزمان</strong>حداقل پاسخ سرور</li>
+                                                <li><strong>۳۰ درخواست</strong>حداقل پاسخ سرور</li>
                                                 <li><strong>۲ عدد توکن همزمان</strong> با اعتبار سنجی پایه</li>
                                                 <li><strong>توکن های </strong>خواندن، نوشتن، حذف و ویرایش</li>
                                                 <li><strong>لایه امنیتی وب</strong> فعال است</li>
-                                                <li><strong>سیتم پشتیبانی </strong> از طریق تیکیت</li>
+                                                <li><strong>سیستم پشتیبانی </strong> تیکیت</li>
                                                 <li><strong>انتخاب دامین </strong> دلخواه ندارد</li>
-                                                <li><strong>تضمین تست فشار </strong> برای حداقل پاسخ سرور</li>
+                                                <li><strong>تضمین تست فشار </strong></li>
                                             </ul>
                                         </div>
                                         <div class="pricing-table-footer bkg-white">
@@ -386,13 +389,13 @@
                                             <ul class="list-unstyled mb-0">
                                                 <li><strong>۵۰۰ مکابایت</strong> فضای ذخیره یابی</li>
                                                 <li><strong>۴ عدد ورکر</strong> برای اجرای درخواست ها</li>
-                                                <li><strong>۱۲۰ درخواست همزمان</strong> حداقل پاسخ سرور</li>
+                                                <li><strong>۱۲۰ درخواست</strong> حداقل پاسخ سرور</li>
                                                 <li><strong>۴ عدد توکن</strong> ApiKey،HMAC,BasicAuth</li>
                                                 <li><strong>توکن های </strong>خواندن، نوشتن، حذف و ویرایش</li>
                                                 <li><strong>لایه امنیتی وب</strong> فعال است</li>
-                                                <li><strong>سیتم پشتیبانی </strong> از طریق تیکیت</li>
-                                                <li><strong>انتخاب دامین </strong> دلخواه ندارد</li>
-                                                <li><strong>تضمین تست فشار </strong> برای حداقل پاسخ سرور</li>
+                                                <li><strong>سیستم پشتیبانی </strong>  تیکیت</li>
+                                                <li><strong>انتخاب دامین </strong> دلخواه دارد</li>
+                                                <li><strong>تضمین تست فشار </strong></li>
                                             </ul>
                                         </div>
                                         <div class="pricing-table-footer bkg-white">
@@ -423,13 +426,13 @@
                                             <ul class="list-unstyled mb-0">
                                                 <li><strong>۱ گیگابایت</strong> فضای ذخیره یابی</li>
                                                 <li><strong>۸ عدد ورکر</strong> برای اجرای درخواست ها</li>
-                                                <li><strong>۲۱۰ درخواست همزمان</strong> حداقل پاسخ سرور</li>
+                                                <li><strong>۲۱۰ درخواست</strong> حداقل پاسخ سرور</li>
                                                 <li><strong>۶ عدد توکن</strong> ApiKey،HMAC,BasicAuth</li>
                                                 <li><strong>توکن های</strong> خواندن، نوشتن، حذف و ویرایش</li>
                                                 <li><strong>لایه امنیتی وب</strong> فعال است</li>
-                                                <li><strong>سیتم پشتیبانی </strong> از طریق تیکیت</li>
-                                                <li><strong>انتخاب دامین </strong> دلخواه ندارد</li>
-                                                <li><strong>تضمین تست فشار </strong> برای حداقل پاسخ سرور</li>
+                                                <li><strong>سیستم پشتیبانی </strong> تیکیت</li>
+                                                <li><strong>انتخاب دامین </strong> دلخواه دارد</li>
+                                                <li><strong>تضمین تست فشار </strong></li>
                                             </ul>
                                         </div>
                                         <div class="pricing-table-footer bkg-white">
@@ -452,31 +455,31 @@
                         </div>
                         <div class="column width-12 right left-on-mobile v-align-bottom">
                             <div>
-                                <a href="{{ route('documentation') }}" class="button rounded small bkg-pink bkg-hover-white color-white color-hover-pink mb-60">View All Articles</a>
+                                <a href="{{ route('documentation') }}" class="button rounded small bkg-pink bkg-hover-white color-white color-hover-pink mb-60">قسمت مستندات کلیک کنید</a>
                             </div>
                         </div>
                     </div>
                     <div class="row flex boxes two-columns-on-tablet">
                         <div class="column width-3 tmh-perspective">
-                            <div class="box large rounded bkg-white horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:0ms;" style="backface-visibility: hidden; transition: -webkit-transform 300ms cubic-bezier(0.11, 0.69, 0.66, 1.01) 0ms, opacity; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1); opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;">
+                            <div class="box large rounded bkg-white horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:450ms;" style="backface-visibility: hidden; transition: -webkit-transform 300ms cubic-bezier(0.11, 0.69, 0.66, 1.01) 0ms, opacity; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1); opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;">
                                 <h4 class="mb-80 mb-mobile-40">The Fundamentals of Faulkner</h4>
                                 <p><a href="#">View article →</a></p>
                             </div>
                         </div>
                         <div class="column width-3 tmh-perspective">
-                            <div class="box large rounded bkg-white horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:150ms;" style="backface-visibility: hidden; transition: -webkit-transform 300ms cubic-bezier(0.11, 0.69, 0.66, 1.01) 150ms, opacity; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1); opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;">
+                            <div class="box large rounded bkg-white horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:300ms;" style="backface-visibility: hidden; transition: -webkit-transform 300ms cubic-bezier(0.11, 0.69, 0.66, 1.01) 150ms, opacity; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1); opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;">
                                 <h4 class="mb-80 mb-mobile-40">A Simple Way to Integrate</h4>
                                 <p><a href="#">View article →</a></p>
                             </div>
                         </div>
                         <div class="column width-3 tmh-perspective">
-                            <div class="box large rounded bkg-white horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:300ms;" style="backface-visibility: hidden; transition: -webkit-transform 300ms cubic-bezier(0.11, 0.69, 0.66, 1.01) 300ms, opacity; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1); opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;">
+                            <div class="box large rounded bkg-white horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:150ms;" style="backface-visibility: hidden; transition: -webkit-transform 300ms cubic-bezier(0.11, 0.69, 0.66, 1.01) 300ms, opacity; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1); opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;">
                                 <h4 class="mb-80 mb-mobile-40">Authorization using the OAuth 2.0 protocol</h4>
                                 <p><a href="#">View article →</a></p>
                             </div>
                         </div>
                         <div class="column width-3 tmh-perspective">
-                            <div class="box large rounded bkg-white horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:450ms;" style="backface-visibility: hidden; transition: -webkit-transform 300ms cubic-bezier(0.11, 0.69, 0.66, 1.01) 450ms, opacity; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1); opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;">
+                            <div class="box large rounded bkg-white horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:0ms" style="backface-visibility: hidden; transition: -webkit-transform 300ms cubic-bezier(0.11, 0.69, 0.66, 1.01) 450ms, opacity; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1); opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;">
                                 <h4 class="mb-80 mb-mobile-40">Intro to Platform-as-a-service (PaaS)</h4>
                                 <p><a href="#">View article →</a></p>
                             </div>

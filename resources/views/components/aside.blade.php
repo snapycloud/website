@@ -484,7 +484,7 @@
                     </ul>
                 </nav>
                 <div class="side-navigation-footer">
-                    <p class="copyright no-margin-bottom">&copy; 2017 ThemeMountain.</p>
+                    <p class="copyright no-margin-bottom">&copy; 2018 SnapyCloud.</p>
                 </div>
             </div>
         </div>

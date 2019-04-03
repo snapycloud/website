@@ -1,5 +1,5 @@
 @include('layout.partials.head')
-@include('components.aside')
+{{-- @include('components.aside') --}}
 
     <div class="wrapper reveal-side-navigation bkg-charcoal">
         <div class="wrapper-inner">

@@ -4322,7 +4322,7 @@ ul li>[class*=icon-]:first-child {
 }
 
 .pricing-table.large .pricing-table-price h4 {
-    font-size: 4.5rem
+    _font-size: 4.5rem
 }
 
 .pricing-table.xlarge .pricing-table-header h2 {
