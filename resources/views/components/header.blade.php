@@ -17,8 +17,8 @@
 
                             <div class="logo">
                                 <div class="logo-inner">
-                                    <a href="index.html"><img src="images/logo-dark.png" alt="SnapyCloud" /></a>
-                                    <a href="index.html"><img src="{{ asset('images/logo.png') }}" alt="SnapyCloud" /></a>
+                                    <a href="{{ route('home') }}"><img src="{{ asset('images/logo-dark.png') }}" alt="SnapyCloud" /></a>
+                                    <a href="{{ route('home') }}"><img src="{{ asset('images/logo.png') }}" alt="SnapyCloud" /></a>
                                 </div>
                             </div>
 

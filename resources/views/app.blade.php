@@ -13,14 +13,14 @@
                                 </div>
                                         <h1 class="color-white h1-bold center mb-20">به مشتریان خود نزدیکتر شودید</h1>
                                         <h2 class="color-white h1-bold center mb-20">شروع آسان  برای استارت آپ‌ها</h2>
-                                        <p class="lead color-white center mb-40">اسنپی یک پلتفرم ابری آماده است با امکانات کامل.  با زدن یک دکمه سرویس دلخواه خود را ایجاد کنید </p>
+                                        <p class="lead color-white center mb-40 rtl">اسنپی یک پلتفرم ابری آماده است با امکانات بی نظیر و کارآمد، <br>  با زدن یک دکمه سرویس دلخواه خود را ایجاد کنید.</p>
                                         <div class="mb-mobile-30 center">
-                                            <a href="#" class="button rounded large border-white color-white bkg-hover-green color-hover-white">
-                                                تمام سرویس‌ها
+                                            <a href="#plans" class="button rounded large border-white color-white bkg-hover-green color-hover-white">
+                                                ایجاد سرویس کلیک کنید
                                             </a>
-                                            <a href="#plans" class="button rounded large border-white color-white bkg-hover-gray color-hover-white rtl">
-                                                <span class="label rounded bkg-green color-white">CRM</span> رایگان 
-                                            </a>
+                                            {{-- <a href="#plans" class="button rounded large border-white color-white bkg-hover-gray color-hover-white rtl"> --}}
+                                                {{-- <span class="label rounded bkg-green color-white"></span> رایگان  --}}
+                                            {{-- </a> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -34,16 +34,15 @@
                 <!-- About Section -->
                 <div class="section-block bkg-white" id="product">
                     <div class="row flex two-columns-on-tablet">
-                        <div class="column width-7 v-align-middle right rtl">
+                        <div class="column width-7 v-align-middle right rtl ">
                             <div>
-                                <h3>سرویس اشتراکی ابری و اختصاسی</h3>
-                                <p class="lead mb-50">کسب و کار خود را با کمترین هزینه را ها ندازی کنید.
-                                نرم افزار مدیریت ارتباط با مشتری را رایگان استفاده کنید و از سرویس های پانل api برای نرم افزاری های موبایلی به راحتی راه اندازی کنید</p>
+                                <h3>سرویس اشتراکی ابری و اختصاصی</h3>
+                                <p class="lead mb-50 justify" style="font">کسب و کار خود را با کمترین هزینه راه اندازی کنید. نرم افزار مدیریت ارتباط با مشتری را رایگان استفاده کنید. سرویس های پانل api برای نرم افزاری های موبایلی و وب اپلیکیشن ها به راحتی با کمترین هزینه و بیشترین امکانات راه اندازی و استفاده کنید.</p>
                                 <div class="feature-column medium left">
                                     <span class="feature-icon icon-flow-tree color-theme mb-30"></span>
                                     <div class="feature-text right">
                                         <h4 class="color-theme">سرویس ها متنوع</h4>
-                                        <p>با توجه به نیاز و هزینه، سرویس مورد نظر خود را انتخاب کنید، کمترین هزینه بهترین کیفیت و سرویس رسانی.</p>
+                                        <p>با توجه به نیاز و هزینه، سرویس مورد نظر خود را انتخاب کنید، حتی با کمترین هزینه می توانید بهترین کیفیت و سرویس رسانی را تهیه کنید.</p>
                                         {{-- <a href="#">Read More →</a> --}}
                                     </div>
                                 </div>
@@ -52,7 +51,7 @@
                                     <span class="feature-icon icon-flow-parallel color-theme mb-30"></span>
                                     <div class="feature-text right">
                                         <h4 class="color-theme">سفارشی سازی</h4>
-                                        <p>در صورتیکه مایل به درخواست نیازمندی جدید هستید کافیست به ما اطلاع دهید تا بعد بررسی و امکان سنجی برایتان توسعه دهیم.</p>
+                                        <p>به راحتی از طریق پانل سیستم خود را توسعه دهید بدون نیاز به برنامه نویسی. در صورتیکه درخواست نیازمندی جدید دارید کافیست به ما اطلاع دهید تا بعد بررسی و امکان سنجی برایتان توسعه دهیم.</p>
                                         {{-- <a href="#">Read More →</a> --}}
                                     </div>
                                 </div>
@@ -70,7 +69,7 @@
                                     <p class="lead">کشف، درک و انتخاب روش های  مناسب برای رسیدن به مخاطبان  گسترده تر و ارائه سرویس های پرسرعت با توجه به نیاز شرکت‌ها</p>
                                     <div class="box xlarge ignore-parent-padding last bkg-grey-light rtl">
                                         <h4>توسعه و پایداری</h4>
-                                        <p class="opacity-07">ما در تلاش برای اضافه کردن اطلاعات  کاربردی از سرویس های خود هستیم. ما همیشه در حال توسعه و بروزرسانی سرویس های خود هستیم، درخواست هایی که لازم داریدبرای ما ارسال کنید
+                                        <p class="opacity-07">ما در تلاش برای اضافه کردن اطلاعات  کاربردی از سرویس های خود هستیم. همیشه در حال توسعه و بروزرسانی سرویس های خود هستیم، درخواست هایی که لازم داریدبرای ما ارسال کنید
 
 
 
@@ -87,11 +86,11 @@
                     <div class="row flex two-columns-on-tablet">
                         <div class="column width-3 center v-align-middle horizon" data-animate-in="preset:slideInRightShort;duration:1000ms;delay:300;" data-threshold="1">
                             <div>
-                                <a href="#plans" class="scroll-link button rounded medium full-width  bkg-green color-white bkg-hover-green color-hover-white no-marginsk">کلیک کنید</a>
+                                <a href="#plans" class="scroll-link button rounded medium full-width  bkg-green color-white bkg-hover-green color-hover-white no-marginsk">برای ثبت نام کلیک کنید</a>
                             </div>
                         </div>
-                        <div class="column width-5 offset-1 v-align-middle horizon right" data-animate-in="preset:slideInLeftShort;duration:1000ms;delay:0;" data-threshold="1">
-                            <p class="lead right">اسنپی برای شما طراحی شده، امروز ثبت نام کنید</p>
+                        <div class="column width-7 offset-1 v-align-middle horizon right" data-animate-in="preset:slideInLeftShort;duration:1000ms;delay:0;" data-threshold="1">
+                            <p class="lead right rtl">اسنپی برای شما طراحی شده تا هرچه سریع تر به جلو بروید</p>
                         </div>
                         
                     </div>
@@ -110,15 +109,17 @@
                             <div>
                                 <span class="icon-circled icon-line-graph pulsate large border-theme color-theme mb-40"></span>
                                 <h3 class="weight-semi-bold ">تست فشار</h3>
-                                <p class="opacity-07">در صورتیکه مایل به دریافت پاسخ هستید، پست الکترونیک خود را ضمیمه کنید و هنوز هیچ مسئولیتی را از طرف کاربران پرسیده نشده است</p>
+                                <p class="opacity-07 rtl">تمام سرویس ها آماده تست فشار هستند، به شما تظمین حداقل پاسخ در سرویس های ارائه شده را می دهیم. می توانید کارائی سرویس خود را با ابزار های پیشنهادی بررسی کنید و از مناسب بودن عملکرد سرویس خود اطمینات حاصل کنید.</p>
                                 {{-- <a href="#">Read More →</a> --}}
                             </div>
                         </div>
                         <div class="column width-6 mb-mobile-40 v-align-middle center">
                             <div>
                                 <span class="icon-circled icon-network pulsate large border-theme color-theme mb-40"></span>
-                                <h3 class="weight-semi-bold ">بدون باتلنک درخواست</h3>
-                                <p class="opacity-07">در صورتیکه مایل به دریافت پاسخ هستید، پست الکترونیک خود را ضمیمه کنید و هنوز هیچ مسئولیتی را از طرف کاربران پرسیده نشده است</p>
+                                <h3 class="weight-semi-bold ">بدون باتل نک</h3>
+                                <p class="opacity-07 rtl">استفاده از منابع حداکثری و بهینه شده با سرویس ها و درخواست ها، اقدامات لازم نظیر تیون کردن و اسکیل شدن برای بانک اطلاعت، منابع نرم‌افزاری و سخت افزاری جهت ارائه بهترین کارایی در سرویس های ابری  اشتراکی و اختصاصی انجام شده است.
+
+</p>
                                 {{-- <a href="#">Read More →</a> --}}
                             </div>
                         </div>
@@ -129,7 +130,7 @@
                     <div class="row">
                         <div class="column width-8 offset-2 center">
                             <h3 class="mb-30">امکانات موجود در همه برنامه ها</h3>
-                            <p class="lead mb-60">هر طرح شامل پشتیبانی ماهانه ماهانه برای حمایت از سیستم پرداخت جدید شماست.</p>
+                            <p class="lead mb-60">هر سرویس به صورت پیش فرض شامل پشتیبانی ماهانه برای حمایت از مصرف کننده می باشد.</p>
                         </div>
                     </div>
                     <div class="row flex boxes two-columns-on-tablet">
@@ -139,7 +140,7 @@
                                     <span class="feature-icon icon-credit mt-20 mb-30 color-theme"></span>
                                     <div class="feature-text rtl">
                                         <h4>اتوماسیون فروش</h4>
-                                        <p>ماژول سرنخ. تبدیل سرنخ به فرصت / حساب/ سازمان / اشخاص.
+                                        <p>ماژول سرنخ. تبدیل سرنخ به فرصت، حساب، سازمان، اشخاص.
 ماژول فرصت ها. فروش بالقوه در CRM.
 ماژول حساب و سازمان. هر حساب یا سازمان یک رکورد مرکزی در مدل B2B است.
 ماژول مخاطب یا اشخاص. ثبت اطلاعات اشخاص و ارتباط آن‌ها با سازمان و حساب.
@@ -450,7 +451,7 @@
                         <div class="column width-12 v-align-middle right rtl">
                             <div>
                                 <h2 class="mb-30">مستندات گسترده</h2>
-                                <p class="lead mb-60">ما مطمئن شده ایم که هر جنبه ای از API های فاکنر دقت مستند می کنیم. در زیر چند موضوع برای کمک به شروع کار شما وجود دارد.</p>
+                                <p class="lead mb-60">مطمئن هسیتم یکی از فاکتورهای مهم سرویس های پنل API و نرم افزار مدیریت ارتباط با مشتری مستندات کاملا کاربردی آن می باشد. در زیر چندین موضوع برای کمک به شروع کار شما وجود دارد.</p>
                             </div>
                         </div>
                         <div class="column width-12 right left-on-mobile v-align-bottom">
@@ -492,7 +493,9 @@
                     <div class="row">
                         <div class="column width-8 offset-2 center">
                             <h3>اسنپی کلود یک تیم پویا</h3>
-                            <p class="lead mb-50 rtl">ما یک تیم بسیار جذاب و متنوع هستیم که همه انواع پروژه ها را دوست دارد، از کوچک به واقعا پیچیده. بیشتر درباره اعضای تیم خود بیشتر بیاموزید.</p>
+                            <p class="lead mb-50 rtl">ما یک تیم خلاق و پویا، همیشه در حال رشد و توسعه هستیم.
+
+</p>
                         </div>
                     </div>
                     <div class="row">
@@ -506,8 +509,7 @@
                                         <div class="team-content-info">
                                             <h4 class="mb-10">ابراهیم قائمی</h4>
                                             <h6 class="occupation">مدیر مجموعه و تیم فنی</h6>
-                                            <p>در دنیای امروز، بیش از پیش صنعت رایانه زندگی روزمره مان را دگرگون ساخته باعث تغییرات کلی در نوع وظایف و خدمات شده است. ما سعی بر این داریم با نگاه نوبرانه ای در این عرصه قدم برداشته و لبخند رضایت بر لبانتان جاری کنیم.
-
+                                            <p>در دنیای امروز، بیش از پیش صنعت کامپیوتر زندگی روزمره مان را دگرگون ساخته باعث تغییرات کلی در نوع وظایف و عملکردمان شده. ما سعی بر این داریم با نگاه نوبرانه ای در این عرصه قدم برداشته و لبخند رضایت بر لبانتان جاری کنیم
 </p>
                                             {{-- <p><a href="#">View Jason's Profile →</a></p> --}}
                                         </div>

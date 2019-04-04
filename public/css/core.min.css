@@ -15,6 +15,10 @@ html {
     direction: rtl !important;
 }
 
+.justify {
+    text-align: justify !important;
+}
+
 .column>:first-child,
 .row {
     margin-top: 0
