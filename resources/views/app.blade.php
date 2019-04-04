@@ -8,9 +8,9 @@
                             <div class="row flex one-column-on-tablet">
                                 <div class="column width-12 v-align-middle center">
                                     <div>
-                                        <div class="thumbnail">
+                                        <{{-- div class="thumbnail">
                                     <img src="images/anapycloud2x.png" width="500" alt="" style="transition-duration: 400ms; transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);">
-                                </div>
+                                </div> --}}
                                         <h1 class="color-white h1-bold center mb-20">به مشتریان خود نزدیکتر شودید</h1>
                                         <h2 class="color-white h1-bold center mb-20">شروع آسان  برای استارت آپ‌ها</h2>
                                         <p class="lead color-white center mb-40 rtl">اسنپی یک پلتفرم ابری آماده است با امکانات بی نظیر و کارآمد، <br>  با زدن یک دکمه سرویس دلخواه خود را ایجاد کنید.</p>
@@ -456,33 +456,33 @@
                         </div>
                         <div class="column width-12 right left-on-mobile v-align-bottom">
                             <div>
-                                <a href="{{ route('documentation') }}" class="button rounded small bkg-pink bkg-hover-white color-white color-hover-pink mb-60">قسمت مستندات کلیک کنید</a>
+                                <a href="{{ route('larecipe.index') }}" class="button rounded small bkg-pink bkg-hover-white color-white color-hover-pink mb-60">قسمت مستندات کلیک کنید</a>
                             </div>
                         </div>
                     </div>
                     <div class="row flex boxes two-columns-on-tablet">
                         <div class="column width-3 tmh-perspective">
                             <div class="box large rounded bkg-white horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:450ms;" style="backface-visibility: hidden; transition: -webkit-transform 300ms cubic-bezier(0.11, 0.69, 0.66, 1.01) 0ms, opacity; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1); opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;">
-                                <h4 class="mb-80 mb-mobile-40">The Fundamentals of Faulkner</h4>
-                                <p><a href="#">View article →</a></p>
+                                <h4 class="mb-80 mb-mobile-40">Api Key</h4>
+                                <p><a href="{{ route('home') . '/doc/1.0/api/Authentication' }}">View article →</a></p>
                             </div>
                         </div>
                         <div class="column width-3 tmh-perspective">
                             <div class="box large rounded bkg-white horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:300ms;" style="backface-visibility: hidden; transition: -webkit-transform 300ms cubic-bezier(0.11, 0.69, 0.66, 1.01) 150ms, opacity; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1); opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;">
-                                <h4 class="mb-80 mb-mobile-40">A Simple Way to Integrate</h4>
-                                <p><a href="#">View article →</a></p>
+                                <h4 class="mb-80 mb-mobile-40">CRUD Operations</h4>
+                                <p><a href="{{ route('home') . '/doc/1.0/api/CRUDOperations' }}">View article →</a></p>
                             </div>
                         </div>
                         <div class="column width-3 tmh-perspective">
                             <div class="box large rounded bkg-white horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:150ms;" style="backface-visibility: hidden; transition: -webkit-transform 300ms cubic-bezier(0.11, 0.69, 0.66, 1.01) 300ms, opacity; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1); opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;">
-                                <h4 class="mb-80 mb-mobile-40">Authorization using the OAuth 2.0 protocol</h4>
-                                <p><a href="#">View article →</a></p>
+                                <h4 class="mb-80 mb-mobile-40">Read Entity</h4>
+                                <p><a href="{{ route('home') . '/doc/1.0/api/CRUDOperations' }}">View article →</a></p>
                             </div>
                         </div>
                         <div class="column width-3 tmh-perspective">
                             <div class="box large rounded bkg-white horizon" data-animate-in="preset:scaleIn;duration:300ms;delay:0ms" style="backface-visibility: hidden; transition: -webkit-transform 300ms cubic-bezier(0.11, 0.69, 0.66, 1.01) 450ms, opacity; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1); opacity: 1; visibility: visible; transform-origin: 50% 50% 0px;">
-                                <h4 class="mb-80 mb-mobile-40">Intro to Platform-as-a-service (PaaS)</h4>
-                                <p><a href="#">View article →</a></p>
+                                <h4 class="mb-80 mb-mobile-40">Intro CRM</h4>
+                                <p><a href="{{ route('home') . '/doc/1.0/crm/overview' }}">View article →</a></p>
                             </div>
                         </div>
                     </div>
