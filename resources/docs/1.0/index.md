@@ -1,0 +1,11 @@
+- ## Cloud Api Platform
+    - [REST API Overview](/doc/{{version}}/api/overview)
+    - [Authentication](/doc/{{version}}/api/Authentication)
+    - [CRUD Operations](/doc/{{version}}/api/CRUDOperations)
+    - [Related Entities](/doc/{{version}}/api/RelatedEntities)
+
+- ## Cloud Crm Plattform
+    - [REST API Overview](/doc/{{version}}/overview)
+    - [Authentication](/doc/{{version}}/Authentication)
+    - [CRUD Operations](/doc/{{version}}/CRUDOperations)
+    - [Related Entities](/doc/{{version}}/RelatedEntities)
